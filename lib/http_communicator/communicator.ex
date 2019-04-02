@@ -6,7 +6,8 @@ defmodule SwarmCommunicator.Communicator do
   end
 
   def init(_) do
-    :global.register_name(:swarm_communicator, self())
+    global_name = Application.get_env(:swarm_communicator, :global_name)
+    :global.register_name(global_name, self())
     {:ok, %{}}
   end
 

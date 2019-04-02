@@ -7,7 +7,8 @@ use Mix.Config
 # file won't be loaded nor affect the parent project. For this reason,
 # if you want to provide default values for your application for
 # 3rd-party users, it should be done in your "mix.exs" file.
-
+config :swarm_communicator,
+  global_name: :swarm_communicator
 # You can configure your application as:
 #
 #     config :swarm_communicator, key: :value
