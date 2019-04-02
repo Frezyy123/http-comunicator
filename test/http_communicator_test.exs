@@ -1,8 +1,8 @@
-defmodule HttpCommunicatorTest do
+defmodule SwarmCommunicatorTest do
   use ExUnit.Case
-  doctest HttpCommunicator
+  doctest SwarmCommunicator
 
   test "greets the world" do
-    assert HttpCommunicator.hello() == :world
+    assert SwarmCommunicator.hello() == :world
   end
 end

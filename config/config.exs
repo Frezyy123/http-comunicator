@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :http_communicator, key: :value
+#     config :swarm_communicator, key: :value
 #
 # and access this configuration in your application as:
 #
-#     Application.get_env(:http_communicator, :key)
+#     Application.get_env(:swarm_communicator, :key)
 #
 # You can also configure a 3rd-party app:
 #

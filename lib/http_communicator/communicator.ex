@@ -1,4 +1,4 @@
-defmodule HttpCommunicator.Communicator do
+defmodule SwarmCommunicator.Communicator do
   use GenServer
 
   def start_link() do
@@ -6,7 +6,7 @@ defmodule HttpCommunicator.Communicator do
   end
 
   def init(_) do
-    :global.register_name(:http_communicator, self())
+    :global.register_name(:swarm_communicator, self())
     {:ok, %{}}
   end
 

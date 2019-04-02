@@ -1,6 +1,6 @@
-defmodule HttpCommunicator do
+defmodule SwarmCommunicator do
   @moduledoc """
-  Documentation for HttpCommunicator.
+  Documentation for SwarmCommunicator.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule HttpCommunicator do
 
   ## Examples
 
-      iex> HttpCommunicator.hello()
+      iex> SwarmCommunicator.hello()
       :world
 
   """

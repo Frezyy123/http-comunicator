@@ -1,9 +1,9 @@
-defmodule HttpCommunicator.MixProject do
+defmodule SwarmCommunicator.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :http_communicator,
+      app: :swarm_communicator,
       version: "0.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
@@ -15,7 +15,7 @@ defmodule HttpCommunicator.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {HttpCommunicator.Application, []}
+      mod: {SwarmCommunicator.Application, []}
     ]
   end
 

@@ -1,4 +1,4 @@
-# HttpCommunicator
+# SwarmCommunicator
 
 **TODO: Add description**
 
@@ -10,7 +10,7 @@ by adding `http_communicator` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:http_communicator, "~> 0.1.0"}
+    {:swarm_communicator, "~> 0.1.0"}
   ]
 end
 ```
